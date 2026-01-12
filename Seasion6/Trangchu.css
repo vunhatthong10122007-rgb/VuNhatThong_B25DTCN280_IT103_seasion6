@@ -1,0 +1,80 @@
+.box1{
+    text-align: center;
+    background-color: azure;
+}
+
+ h1{
+    background-color: rgb(206, 255, 239);
+    color: rgb(1, 130, 70);
+ }
+
+ .choice{
+    background-color: rgb(216, 252, 255);
+    color: rgb(77, 165, 224);
+    font-weight: 690;
+    font-size: 19px;
+ }
+
+ .none{
+    text-decoration: none;
+ }
+
+ .none:hover{
+    background-color: blue;
+    color: white !important;
+ }
+.none:visited{
+    color: rgb(77, 165, 224);
+}
+
+img{
+    width: 800px;
+    margin-bottom: 20px;
+}
+
+h2{
+    color: rgb(1, 130, 70);
+}
+
+.kk{
+    margin-top: 0;
+}
+
+.p{
+    font-size: 18px;
+}
+
+.cl{
+    width: 50px;
+    color: aqua;
+}
+
+
+.jv{
+    text-align: left;
+    background-color: white;
+}
+
+.bo{
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.a{
+    margin-top: 0px;
+}
+
+.zoom li:hover{
+    font-size: 18px;
+    display: block;
+    width: 100%;
+    color: rgb(73, 127, 236);
+    background-color: rgb(121, 176, 239);
+}
+
+.box3{
+    background-color: rgb(4, 145, 150);
+    text-align: center;
+    color:rgb(247, 236, 221) ;
+}
+

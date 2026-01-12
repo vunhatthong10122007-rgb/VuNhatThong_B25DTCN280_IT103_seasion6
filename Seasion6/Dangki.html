@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng kí lịch khám </title>
+    <link rel="stylesheet" href="./Dangki.css">
+</head>
+<body>
+     <h1>Đăng kí lịch khám </h1>
+        <p class="choice">
+            <a href="./Trangchu.html" class="none">Trang chủ</a> 
+            <a href="./Dichvu.html" class="none">Dịch vụ</a> 
+            <a href="./Dangki.html" class="none">Đăng kí lịch khám</a>
+        </p>
+        <div class="hdpe">
+            <form method="post">
+            <p>
+                 <label for="name">Họ và tên</label> <br>
+            <input type="text" name="name" id="name" placeholder="Nhập họ tên">
+            </p>
+            <p>
+                <label for="email">Email</label> <br>
+                <input type="text" name="email" id="email" placeholder="example@gmail.com">
+            </p>
+            <p>
+                <label for="phonenumber">Số điện thoại</label> <br>
+                <input type="text" name="phonenumber" id="phonenumber">
+            </p>
+            <p>
+                <label for="choice">Chọn dịch vụ</label> <br>
+                <select name="choice" id="choice">
+                    <option value="Khám răng tổng quát">Khám răng tổng quát</option>
+                    <option value="Lấy cao răng">Lấy cao răng</option>
+                    <option value="Tẩy trắng răng">Tẩy trắng răng</option>
+                    <option value="Niềng răng "> Niềng răng</option>
+                </select>
+            </p>
+            <p>
+                <label for="date">Ngày khám</label> <br>
+                <input type="date" name="date" id="date">
+            </p>
+            <p>
+                <label for="note">Ghi chú thêm</label> <br>
+                <textarea name="note" id="note" placeholder="Yêu cầu thêm. . ."></textarea>
+            </p>
+        </form>
+        <button type="button">Gửi đăng ký</button>
+        </div>
+        
+        <div class="box3">
+            <p>&copy; 2026 Nha Khoa Chăm Sóc Nụ Cười Việt
+            <br>
+            Địa chỉ: 123 Đường Nụ Cười - Hotline: 0900 000 000
+            </p>
+        </div>
+</body>
+</html>

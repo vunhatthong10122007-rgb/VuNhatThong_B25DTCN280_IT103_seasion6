@@ -1,0 +1,62 @@
+h1{
+    background-color: rgb(206, 255, 239);
+    color: rgb(1, 130, 70);
+    text-align: center;
+ }
+
+ .choice{
+    text-align: center;
+    background-color: rgb(216, 252, 255);
+    color: rgb(77, 165, 224);
+    font-weight: 690;
+    font-size: 19px;
+ }
+
+ .none{
+    text-decoration: none;
+ }
+ .none:hover{
+    background-color: blue;
+    color: white !important;
+ }
+.none:visited{
+    color: rgb(77, 165, 224);
+}
+
+form{
+   text-align: center;
+}
+
+.hdpe{
+   background-color: aliceblue;
+   margin-bottom: 0px;
+   font-size: 18px;
+}
+
+input{
+   font-size: 18px;
+}
+
+label{
+   font-weight: bold
+}
+
+button{
+   font-weight: bold;
+   display: block;
+   margin: 0 auto;
+   font-size: 20px;
+   background-color: rgb(102, 191, 239);
+   color:white;
+}
+button:hover{
+   background-color: rgb(4, 145, 150);
+   color:white;
+
+}
+
+.box3{
+    background-color: rgb(4, 145, 150);
+    text-align: center;
+    color:rgb(247, 236, 221) ;
+}
